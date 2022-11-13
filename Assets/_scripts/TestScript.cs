@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
+    [SerializeField] private int _revisionNumber = 0;
+    
     // Start is called before the first frame update
     void Start()
     {
